@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2e4666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  border: none;
+  color: #fff;
+}
+
+.outer {
+  width: 250px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 100%;
+  position: relative;
+}
+
+.btn-left {
+  left: 10px;
+  padding: 10px 15px;
+}
+
+.btn-right {
+  right: 10px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.btn-flat-blue {
+  background-color: #3d85c6;
+}
+
+.btn-flat-yellow {
+  background-color: #f7df10;
+}
+
+.btn-flat-blue:hover {
+  background-color: #3c75a7;
+}
+
+.btn-flat-yellow:hover {
+  background-color: #cab70d;
+}
+
+.btn-green {
+  background-color: rgb(73, 218, 73);
+}
+
+.btn-red {
+  background-color: rgb(252, 86, 86);
+}
+
+.btn-green:hover {
+  background-color: rgb(59, 179, 59);
+}
+
+.btn-red:hover {
+  background-color: rgb(202, 70, 70);
+}
+
+.btn-ghost {
+  background-color: transparent;
+}
+
+.btn-round {
+  border-radius: 20px;
+}
+
+.btn-ghost.btn-red {
+  border: 2px rgb(252, 86, 86) solid;
+}
+
+.btn-ghost.btn-purple {
+  border: 2px rgb(192, 77, 192) solid;
+}
+
+.btn-ghost.btn-yellow {
+  border: 2px #f7df10 solid;
+}
+.btn-ghost.btn-light {
+  border: 2px rgb(67, 168, 168) solid;
+}
+
+.btn-ghost.btn-red:hover {
+  background-color: rgb(253, 104, 104);
+}
+
+.btn-ghost.btn-purple:hover {
+  background-color: rgb(192, 77, 192);
+}
+
+.btn-ghost.btn-yellow:hover {
+  background-color: #f7df10;
+}
+
+.btn-ghost.btn-light:hover {
+  background-color: rgb(67, 168, 168);
+}

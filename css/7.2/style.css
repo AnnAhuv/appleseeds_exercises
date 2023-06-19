@@ -1,0 +1,73 @@
+.nav-bar {
+  list-style: none;
+  padding: 15px 10px;
+  margin: auto;
+  max-width: fit-content;
+}
+
+nav {
+  background-color: rgba(238, 244, 248, 0.7);
+}
+
+header {
+  position: sticky;
+  top: 10px;
+}
+
+.nav-bar li {
+  display: inline;
+  padding: 15px 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: rgb(17, 70, 228);
+}
+
+.nav-bar li:hover {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+}
+.main-header {
+  color: rgb(17, 70, 228);
+  font-family: "Diphylleia", serif;
+  text-shadow: 10px;
+}
+body {
+  background: url("img/peakpx.jpg") no-repeat center center/cover;
+  height: 125vh;
+}
+.image {
+  width: 200px;
+  height: 267px;
+  margin: 15px auto;
+  border: wheat 1px solid;
+}
+.card {
+  background: rgba(238, 244, 248, 0.6);
+  border: 2px solid blue;
+  width: 300px;
+  text-align: center;
+}
+.contact {
+  width: 60px;
+  margin: 2px auto;
+  text-shadow: 2px 2px 5px white;
+  list-style: none;
+}
+.btn {
+  width: 100px;
+  margin: 20px auto;
+}
+.btn button {
+  padding: 8px 15px;
+  border: none;
+}
+
+.btn button:hover {
+  background-color: rgb(255, 255, 255, 0.7);
+}

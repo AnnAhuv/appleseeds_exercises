@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>positioning</title>
+    <style>
+      /* If we set the position of an element to 'absolute',
+       it will look for the first ancestor element that is not positioned 'static'
+       and if such element not found, the element positioned 'absolute' 
+       will be positioned relative to the window (in this case the inner box
+      positioned 10px below the top of the window), I changed the position
+      of the outer box to 'relative' to fix it. */
+      #outer {
+        width: 100px;
+        height: 100px;
+        background: darkcyan;
+        margin: 50px;
+        position: relative;
+      }
+      #inner {
+        width: 50px;
+        height: 50px;
+        background: lightgreen;
+        position: absolute;
+        top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+      <div id="outer">
+        <div id="inner"></div>
+      </div>
+    </body>
+  </body>
+</html>
