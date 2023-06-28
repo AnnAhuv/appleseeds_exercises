@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        max-width: 600px;
+        margin: 100px auto;
+      }
+
+      .box {
+        border-radius: 8px;
+        padding: 4rem;
+      }
+
+      .red_box {
+        background-color: red;
+        grid-column: 1 / span 4;
+      }
+
+      .blue_box {
+        background-color: blue;
+        grid-column: 1 / span 2;
+        grid-row: 2 / span 2;
+      }
+
+      .green_box {
+        background-color: green;
+        grid-column: 3 / span 2;
+        grid-row-start: 2;
+      }
+
+      .purple_box {
+        background-color: purple;
+        grid-row-start: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box red_box"></div>
+      <div class="box blue_box"></div>
+      <div class="box green_box"></div>
+      <div class="box purple_box left"></div>
+      <div class="box purple_box right"></div>
+    </div>
+  </body>
+</html>
